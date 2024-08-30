@@ -1,0 +1,15 @@
+.revenue .Completed {
+    background: rgb(45, 222, 77) !important;
+}
+.revenue .Confirmed {
+    background: rgb(51, 26, 234) !important;
+}
+.revenue .Cancelled {
+    background: rgb(225, 13, 17) !important;
+}
+.revenue .Cooked {
+    background: rgb(32, 173, 220) !important;
+}
+.revenue .Pickup {
+    background: rgb(240, 160, 12) !important;
+}

@@ -1,0 +1,17 @@
+._cart-total .button-checkout {
+    padding: 15px 40px;
+    border: 1px solid #3e693e;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #3e693e;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+._cart-total .button-checkout:hover {
+    background: #fff;
+    color: #3e693e;
+    border: 1px solid #3e693e;
+    transition: 0.5s;
+}

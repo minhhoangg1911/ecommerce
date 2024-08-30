@@ -1,0 +1,31 @@
+._card .button-add {
+    background: #3e693e;
+    border: 1px solid #3e693e;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+._card .button-add:hover {
+    border: 1px solid #3e693e;
+    color: #3e693e;
+    background: #fff;
+    transition: 0.5s;
+}
+
+._card .button-taste {
+    padding: 5px 10px;
+    border: 1px solid #3e693e;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+._card .button-taste:hover {
+    border: 1px solid #3e693e;
+    color: #fff;
+    background: #3e693e;
+    transition: 0.5s;
+}

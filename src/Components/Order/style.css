@@ -1,0 +1,36 @@
+.order .row .item {
+    background: #f8f7f2;
+}
+.order .button-coupon {
+    padding: 15px 40px;
+    border: 1px solid #3e693e;
+    color: #fff;
+    font-weight: bold;
+    background: #3e693e;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.order .button-coupon:hover {
+    background: #fff;
+    color: #3e693e;
+    border: 1px solid #3e693e;
+    transition: 0.5s;
+}
+
+.order .button-update {
+    padding: 15px 40px;
+    border: 1px solid #3e693e;
+    color: #fff;
+    font-weight: bold;
+    background: #3e693e;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.order .button-update:hover {
+    background: #fff;
+    color: #3e693e;
+    border: 1px solid #3e693e;
+    transition: 0.5s;
+}

@@ -1,0 +1,21 @@
+
+.choose .button-order {
+    background: #3e693e;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.choose .button-order:hover {
+    background: #fff;
+    color: #3e693e;
+    transition: 0.5s;
+    border: 2px solid #3e693e;
+}
+.choose img {
+    border-radius: 30px;
+}

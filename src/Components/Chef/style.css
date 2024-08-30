@@ -1,0 +1,22 @@
+.chef .row  {
+    cursor: pointer;
+}
+.chef .row ._animated {
+    cursor: pointer;
+    top: 10 !important;
+    right: 0 !important;
+    position: 'absolute' !important;
+    background: "#fff" !important;
+    border-radius: '10px' !important;
+    transition: 0.5s;
+    opacity: 0;
+    padding: 10px 0;
+}
+
+
+.chef .row ._card:hover ._animated {
+    top: "30%" !important;
+    right: 15px !important;
+    opacity: 1;
+    transition: 0.5s;
+}

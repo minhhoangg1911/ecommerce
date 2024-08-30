@@ -1,0 +1,48 @@
+.rate {
+    padding: 0 200px !important;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.rate .button-letter {
+    padding: 15px 40px;
+    border: 1px solid #3e693e;
+    color: #fff;
+    background: #3e693e;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.rate .button-letter:hover {
+    background: #fff;
+    color: #3e693e;
+    border: 1px solid #3e693e;
+    transition: 0.5s;
+
+}
+
+
+
+@media (max-width: 991px) {
+    .rate .review {
+        flex-wrap: wrap;
+    }
+
+    .rate .review-letter {
+        flex-wrap: wrap;
+    }
+
+    .rate .review-letter .input-name {
+        width: 100% !important;
+    }
+
+    .rate .review-letter .input-email {
+        width: 100% !important;
+    }
+
+    .rate .review-letter input {
+        width: 100%;
+    }
+}

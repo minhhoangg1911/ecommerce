@@ -1,0 +1,111 @@
+.header_1 .name {
+  display: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header_1 ._jimme {
+  font-size: 24px !important;
+  font-weight: bold;
+}
+
+
+.header_1 ._button-order {
+  background: #f8f7f2;
+  color: #3e693e;
+  border: 2px solid #3e693e;
+  transition: 0.5s;
+}
+
+.header_1 ._button-order:hover {
+  background: #3e693e;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: rgb(225 7 7) !important;
+}
+
+
+.header_1 ._nav ._nav-ul {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  gap: 30px;
+  width: 80%;
+}
+
+.header_1 ._search {
+  gap: 20px;
+  padding: 0 40px 0 0;
+}
+
+.header_1 ._search i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.header_1 ._search span {
+  font-weight: bold;
+  font-family: "Impact Charcoal";
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.header_1 ._nav .nav-item .nav-link {
+  font-size: 20px;
+  font-weight: bold !important;
+}
+
+._cart {
+  position: relative;
+}
+
+._cart:hover ._card-shop {
+  color: red;
+  display: block;
+  width: 400px;
+  z-index: 999;
+}
+
+._card-shop {
+  top: 50px;
+  left: -300px;
+  position: absolute;
+  display: none;
+}
+
+
+
+
+@media (max-width: 991px) {
+  .header_1 .header_nav_title {
+    display: none !important;
+  }
+
+  .header_1 ._button-order {
+    display: none !important;
+  }
+
+  .header_1 .name {
+    display: block;
+  }
+
+  .header_1 ._search {
+    display: none !important;
+  }
+
+  .header_1 ._nav ._nav-ul {
+    align-items: start !important;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .header_1 ._nav ._nav-ul ._jimme {
+    display: none !important;
+
+  }
+
+}
